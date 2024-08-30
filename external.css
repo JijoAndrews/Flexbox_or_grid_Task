@@ -1,0 +1,178 @@
+.outerbox
+{
+  background-color: #ffffff;
+  min-width: 430px;
+}
+
+.flex-container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+    column-gap: 50px;
+    min-width: 470px;
+}
+  
+  .flex-item-left {
+    background-color: rgb(241, 230, 240);
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color:rgb(241, 230, 240);
+    padding: 10px;
+    flex: 50%;
+  }
+
+  .rowelement
+  {
+    display: flex;
+  }
+
+  .lrowelement
+  {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+
+  .rrowelement
+  {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+
+  .textrowelement
+  {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .rowelementgrid
+  {
+    padding: 5px;
+    text-align: start;
+  }
+
+  .rowelementright
+  {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 5%;
+    position: relative;
+  }
+
+  .placeelement0
+  {
+    padding-top: 1px;
+    margin-bottom: 1px;
+  } 
+
+  .placeelement
+  {
+    padding-top: 10px;
+    margin-bottom: 1px;
+  } 
+
+
+  .rowelementwithimg
+  {
+    padding: 10px;
+    position: relative;
+  }
+
+  .rowelementleftinput
+  {
+    position: relative;
+  }
+
+  .iconbox
+  {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .rowinputelement
+  {
+    display: flex;
+    justify-content:flex-end;
+  }
+
+
+  .rowinputelement1
+  {
+    display: flex;
+    justify-content:flex-start;
+  }
+
+  .rowinputelement_1
+  {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 2%;
+    padding-right: 22%;
+    padding-bottom: 10px;
+    position: relative;
+  }
+
+  .inputwithicon
+  {
+    display: flex;
+    position: relative;
+    padding: 10px; 
+  }
+
+  .lefttext
+  {
+    white-space:nowrap;
+    font-size: 170%;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+
+
+  p
+  {   
+    margin: 0px;
+  }
+
+  .pelement_0
+  {
+    background-color: red;
+  }
+
+  .innerplacement
+  {
+    background-color: rgb(255, 35, 35);
+  }
+
+  .frow
+  {
+    display: grid;
+
+  }
+
+  .icon {
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-color: #ffffff;
+    background-size: 20px;
+  }
+
+  .testimage
+  {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 1300px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
